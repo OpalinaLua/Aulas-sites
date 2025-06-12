@@ -1,0 +1,25 @@
+img{
+width: 400px;
+border-radius:200px;
+
+}
+
+body{
+background-color: rgb(52, 17, 85);
+font-family: 'Times New Roman', Times, serif;
+}
+h1{
+   color:rgb(212, 180, 255)
+}
+h2{
+   color: rgb(185, 133, 253);
+}
+h3{
+   color: rgb(161, 90, 255);
+}
+a{
+color:aquamarine
+}
+li:hover,a:hover{
+color:aqua
+}
