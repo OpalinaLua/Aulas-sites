@@ -1,0 +1,15 @@
+  body{
+    background-color: rgb(52, 17, 85);
+    color: rgb(217, 160, 255);
+    font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+       color:rgb(212, 180, 255)
+    }
+    p{
+       color:rgb(212, 180, 255)
+    }
+    mark{
+        background-color: rgb(201, 155, 255);
+    }
+    /*rgs
