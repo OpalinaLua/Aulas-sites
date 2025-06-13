@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#title{
+    color: greenyellow;
+}
+.verde{
+    color: green;
+}
+.aqua{ 
+    color: aquamarine;
+}
+.tamanho-letra{
+    font-size: 18px;
+
+}
+.verde strong{
+    color: #7fffb0;
+
+}
+.container > .destacar{
+    background-color: gray;
+
+
+}
