@@ -92,19 +92,23 @@ nav{
 .flex-container{
     display: flex;
     gap: 15px;
-
 }
+
 .column{
     flex-direction: column;
 }
-aside {
-    align-self: flex-end;
-}
+
 .center{
     justify-content: center;
     align-items: center;
 }
-footer{
+
+aside{
+    background-color: orange;
+    padding: 30px;
+    margin: -20px;
+}
+footer {
     background-color: red;
     width: 100%;
     position: absolute;
@@ -112,7 +116,15 @@ footer{
     padding: 15px;
     color: aliceblue;
 }
+
 footer li a{
     color: aliceblue;
     padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+footer p a {
+    color: orange;
 }
