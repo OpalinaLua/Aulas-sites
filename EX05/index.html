@@ -20,7 +20,7 @@
             </ul>
         </nav>
     </div>
-    <div class="flex-container gap grow margintop">
+    <div class="flex-container gap margintop">
       <div>
         <section id="Sobre">
             <h1 class="sobre">sobre</h1>
@@ -37,7 +37,21 @@
             <h1>eu</h1>
             <img src="WhatsApp Image 2025-06-13 at 6.46.14 PM.jpeg" alt="eu lua" width="150px">
         </aside>
-    </div>
+    </div>    
+        <form class="flex-container column form " method="get">
+            <label for="name">nome</label>
+            <input class="marigin-bottom"  type="text" id="name" name="name" required>
+            <label for="email">email</label>
+            <input class="marigin-bottom" type="email" id="email" name="email" required >
+            <label for="pwp">senha</label>
+            <input class="marigin-bottom" type="marigin-bottom" type="password" id ="pwp" name="password" pattern=".{8,}" title="no minimo 8 caracteres" required >
+            <div>
+                <label for="checkbox">deseja receber novidades</label>
+                <input type="checkbox" id="checkbox">
+            </div>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    
         <footer class="flex-container column center gap">
             <ul class="flex-container">
                 <li><a href="">Termos do site</a></li>
