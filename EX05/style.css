@@ -52,41 +52,54 @@ body{
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     height: 100vh;
+    transition: 2s;
 }
+
 a{
     text-decoration: none;
 
 }
 header{
     height: 50px;
-    background-color: crimson;
+    background-color:darkgreen;
     color:azure;
     text-align: center;
     padding: 15px;
+    transition: 3s;
 }
 nav{
     padding: 15px;
-    background-color: orangered ;
+    background-color: lightgreen;
     text-align: center;
-
-}
+    transition: 3s;
+} 
 .navlista > li{
     display: inline;
     margin-left: 10px;
     color: black;
+    transition: ease 0.2s;
 }
 .navlista {
     color: black;
 }
+.navlista:hover{
+    color: greenyellow;
+    transition: color linear;
+
+}
 .sobre{
     padding: 15px;
-    background-color: rgb(250, 118, 70);
+    background-color: rgb(70, 230, 70);
     color: black;
+    transition: 3s;
+    margin-bottom: 10px;
 }
 .conteudo{
     padding: 15px;
-    background-color: rgb(255, 140, 98);
+    background-color: rgb(125, 235, 125);
     color: black;
+    transition: 3s;
+    margin-bottom: 10px;
 }
 .flex-container{
     display: flex;
@@ -105,9 +118,11 @@ nav{
 }
 
 aside{
-    background-color: orange;
+    background-color: green;
     padding: 30px;
     margin: -20px;
+    border-radius: 30px;
+    transition: 3s;
 }
 .space-between{
     justify-content: space-between;
@@ -124,13 +139,21 @@ aside{
 .form{
     margin: 20px;
 }
+form{
+    background-color: mediumspringgreen ;
+    padding: 20px;
+    transition: 3s;
+    color: black;
+    border-radius: 30px;
+}
 footer {
-    background-color: red;
+    background-color: darkgreen;
     width: 100%;
     min-height: 20px 0 20px 0 ;
     padding: 15px;
     color: aliceblue;
     height: 40px;
+    transition: 3s;
 }
 
 footer li a{
@@ -142,5 +165,5 @@ footer p{
     text-align: center;
 }
 footer p a {
-    color: orange;
+    color: greenyellow;
 }
