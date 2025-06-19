@@ -1,0 +1,34 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    color: azure;
+    background-color: black;
+}
+header{
+    text-align: center;
+    color: rgb(177, 255, 255);
+}
+input,button{
+    padding: 8px;
+    font-size: small;
+}
+ul{
+    margin-top: 8px;
+}
+li{
+    margin: 5px 0;
+}
+.tentativaclasslista{
+    background-color: rgb(37, 37, 37);
+    margin: 30px;
+    border-radius: 10px;
+}
+.texto-hover {
+    color: azure;
+  }
+  
+  .texto-hover:hover {
+    color: rgb(94, 4, 4); 
+    background-color: rgb(223, 56, 56);
+    
+    border-radius: 10px;
+  }
