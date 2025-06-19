@@ -22,13 +22,8 @@ li{
     margin: 30px;
     border-radius: 10px;
 }
-.texto-hover {
-    color: azure;
-  }
-  
-  .texto-hover:hover {
+.texto-hover:hover {
     color: rgb(94, 4, 4); 
     background-color: rgb(223, 56, 56);
-    
     border-radius: 10px;
-  }
+}
