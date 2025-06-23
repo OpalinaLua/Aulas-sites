@@ -1,0 +1,21 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: azure;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: coral;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgb(255, 0, 0);
+}
