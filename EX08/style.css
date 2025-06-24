@@ -19,3 +19,21 @@ li{
     border-radius: 4px;
     box-shadow: 0 0 8px rgb(255, 0, 0);
 }
+form input{
+    padding: 8px;
+    margin-right: 10px;
+    background-color: dimgray;
+    color: black;
+}
+button{
+    padding: 8px 12px;
+    background-color: crimson;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+button:hover{
+    background-image: radial-gradient(circle,gold, crimson);
+}

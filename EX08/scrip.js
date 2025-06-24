@@ -1,4 +1,5 @@
 const listaUsuario = document.getElementById('lista-usuario')
+const form = document.getElementById('form-usuario')
 
 async function carregarUsuarios(){
     try{
@@ -8,7 +9,7 @@ async function carregarUsuarios(){
             adcionarUsuariosNaTela(usuario.name, usuario.email)
         });
     }catch(erro){
-        console.erro('Erro ao carregar usuarios',erro)
+        console.error('Erro ao carregar usuarios',erro)
     }
 }
 function adcionarUsuariosNaTela(nome,email){
@@ -16,4 +17,27 @@ function adcionarUsuariosNaTela(nome,email){
     li.textContent=`${nome} - ${email}`;
     listaUsuario.appendChild(li);
 }
+form.addEventListener('submit',async(evento)=>{
+    evento.preventDefault();
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    
+    const novoUsuario ={
+        nome: nome,
+        email: email,
+    }
+    try{
+        const resposta = await fetch('https://jsonplaceholder.typicode.com/users',{
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify(novoUsuario),
+        });
+        
+        const usuariocriado= await resposta.json();
+        adcionarUsuariosNaTela(usuariocriado.nome,usuariocriado.email);
+        form.reset();
+    }catch(erro){
+        console.error('Erro ao carregar usuarios',erro)
+    }
+})
 carregarUsuarios();
